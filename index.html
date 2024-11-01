@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Chonburi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Physical Computing</title>
+</head>
+
+<body>
+    <nav>
+        <a class ="del"href="#default">PoseidonGiveMeYourWater</a>
+        <a href="#about">About</a>
+        <a href="#equipment">Equipment</a>
+        <a href="#sourcecode">Source Code</a>
+        <a href="#video">Video Demo</a>
+        <a href="#member">Member</a>
+    </nav>
+    <div id="default" class="def"></div>
+    <div class="default">
+        <div class="def1">
+            <h3>ARDUINO PROJECT</h3>
+            <p>
+            <h2>POSEIDON GIMME UR WATER</h2>
+            </p>
+            <div class="projectInfo">
+                <p>โครงงานเป็นประเภท Microcontroller ตู้กดน้ำอัตโนมัติเมื่อนำภาชนะบรรจุไปวางไว้ที่ตำแหน่งที่ตั้งค่าไว้และหยุดเมื่อยกภาชนะบรรจุขึ้นพ้นระยะเซนเซอร์
+                </p>
+            </div>
+            <div class="botton">
+                <a class="github" href="https://github.com/Phumphuridon/PoseidonGiveMeYourWater.git" target="_blank">Docs on Github</a>
+            </div>
+        </div>
+        <div class="def2">
+            <div class="pictureProject">
+                <br>
+
+                <img height="500px"  src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/20241030_143427%20(1).jpg?raw=trues"
+                    alt="รูปถ่ายโปรเจค">
+            </div>
+        </div>
+    </div>
+    <div id="about" class="About"></div>
+    <br>
+    <div class="abt">
+        <div class="aboutPictureProject">
+            <div class="pic">
+                <h1>POSEIDON GIMME UR WATER</h1>
+            </div>
+            <div class="pic"><img
+                    src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/Screenshot%202024-11-01%20212429.png?raw=true"
+                    alt=""></div>
+        </div>
+        <div class="right">
+            <div class="describeProject">
+                <h3>รายละเอียดโครงงาน</h3>
+                <p>    -    โปรเจคเครื่องกดน้ำแบบไร้สัมผัสนี้พัฒนาขึ้นเพื่อลดการสัมผัสโดยตรงกับเครื่องกดน้ำ ซึ่งมักเป็นแหล่งสะสมของเชื้อโรค การใช้ Ultrasonic Sensor เพื่อตรวจจับภาชนะบรรจุของเหลวช่วยให้การใช้งานสะดวกขึ้นและเป็นการส่งเสริมสุขอนามัยของผู้ใช้งาน โดยระบบจะทำงานอัตโนมัติในการเติมน้ำเมื่อมีการตรวจจับภาชนะบรรจุ
+                </p>
+            </div>
+            <div class="functionProject">
+                <h3>ฟังก์ชั้นการทำงานหลัก</h3>
+                <p><b>-การตรวจจับและการเติมน้ำ</b>
+                    ใช้ Ultrasonic Sensor ในการวัดระยะห่าง เพื่อตรวจจับการมีอยู่ของภาชนะบรรจุของเหลว
+                    ควบคุมการทำงานของ Water Pump ตามการตรวจจับ โดยเปิด/ปิดรีเลย์เพื่อเติมน้ำ
+                    <br>
+                    <b>-การตรวจวัดและแสดงค่าสถานะน้ำ</b>
+                    ใช้เซนเซอร์เพื่อตรวจวัดปริมาณน้ำและส่งต่อข้อมูลไปยังระบบแสดงผลผ่านเว็บไซต์
+                    เปิดให้ผู้ใช้งานสามารถดูสถานะน้ำผ่านทางอินเทอร์เน็ตได้
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="equipment" class="equipment"></div>
+    <br>
+    <div class="eqp">
+        <h2>Equipment for use in Project</h2>
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>For</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>arduino r4 wifi</td>
+                <td>ตัวรันคำสั่งหลัก</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/th-11134207-7r98y-lt29yh34714e9a-removebg-preview.png?raw=true"
+                        alt=""></td>
+            </tr>
+            <tr>
+                <td>ultrasonic sensor</td>
+                <td>วัดระยะห่าง 5ซม.</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/3fee025faf4c0c8e8ba61042d2cef4f7605ff6dd_hc-sr04-removebg-preview.png?raw=true" alt="">                </td>
+            </tr>
+            <tr>
+                <td>Micro Submersible Water Pump DC 3V-5V</td>
+                <td>ดูดน้ำใส่ภาชนะ</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/pump-3-removebg-preview%20(1).png?raw=true" alt=""></td>
+            </tr>
+            <tr>
+                <td>Non-contack liquid level Water level Sensor</td>
+                <td>เช็คระดับน้ำ</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/img_1920x_667eb14cac9877-13266928-77519856-removebg-preview.png?raw=true" alt=""></td>
+            </tr>
+            <tr>
+                <td>Single Channel 5V Relay Breakout Board
+                </td>
+                <td>ใช้ในการสร้างระบบควบคุมอัตโนมัติ</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/download.png?raw=true" alt=""></td>
+            </tr>
+            <tr>
+                <td>6v 4aaa Battery Holder</td>
+                <td>กระบอกสำหรับใส่ถ่าน เพื่อเป้นตัวจ่ายไฟ</td>
+                <td><img src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/battery-holder-4x-aa-6v-1445-removebg-preview.png?raw=true" alt=""></td>
+            </tr>
+        </table>
+    </div>
+    <div id="sourcecode" class="sourcecode"></div>
+    <br>
+    <div class="surc">
+        <div class="projectSource">
+            <h1>Poseidon source code</h1>
+            <div class="botton">
+                <a class="github" href="https://github.com/Phumphuridon/PoseidonGiveMeYourWater/blob/main/Main/Main.ino" target="_blank">Source code on Github</a>
+            </div>
+        </div>
+        <div class="picCode">
+            <div class="scrollable-box">
+                <img width=500 src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/carbon%20(1).png?raw=true"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <div class="vdo"id="video"></div>
+    <div class="video">
+        <h2>Project Demo Video</h2>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/Z3wKX3FMK88?si=3dcvEXSZHWi8et-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+    <div class="memeb"id="member"></div>
+    <br>
+    <div class="mem">
+        <div class="meb">
+            <p>MEMBER</p><br>สมาชิกกลุ่มของโปรเจคนี้
+        </div>
+        <div class="member">
+        
+            <div class="m">
+                <img
+                    src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/2.jpg?raw=true"
+                    alt="">
+                <p>นาย พงศธร กิจเจตนี 66070120</p>
+            </div>
+            <div class="m">
+                <img
+                    src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/DSCF0908.jpg?raw=true"
+                    alt="">
+                <p>นาย ภาคิน ปานสุข 66070153</p>
+            </div>
+                
+            <div class="m">
+                <img
+                src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/image.jpg?raw=true"
+                alt="">
+            <p>นาย ภูมิภูริดล วงค์จันทร์ 66070162</p>
+            </div>
+            <div class="m">
+                <img
+                    src="https://github.com/Poompower/PhyComProject/blob/main/arduinoweb/img/1684739618858_2.jpg?raw=true"
+                    alt="">
+                <p>นาย มนนทกร ขุนสุวรรณ 66070166</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
